@@ -1,0 +1,11 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+It helped me see the bug by displaying the lines back-to-back from both versions in which the differences in coding occurs.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Having easy access to the entire history of a file can be helpful in time manangement when creating new versions of a program.  It can reduce the amount of time needed to compare codes with different versions.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+I think the some of the pros of manually commiting is that the commits can be used as a "documentation" to all the changes. Since git allows putting comments on the commits, one can comment the purpose of the change if they ever need to recall on the codes they wrote.  Version comparison won't nessarily help the programmers remember the purposes of the changes.  Another pro can be is not having too many versions saved when lots of changes occurred.  I don't think it's nessesary to have more than 2 or 3 versions saved especially if the changes are too minor to show a big change to the program.  I think a con to manually commiting is, suppose one forget to commit a change and gets a bug, if they don't have previous versions then it might take forever to find the bug.  At least Google docs will automatically save versions so one can compare the codes and can easily find the bug.  Another con if more than one programmer is involved with the same program and one commits a change that the other won't like and both wind up agreeing that the change won't work.  Now they would have to recommit that change back to its original form.  At least with having different versions, one programmer can use an older version, instead of the current one as a "prototype version" to apply their own change without affecting the current version.
