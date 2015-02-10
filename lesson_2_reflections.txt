@@ -1,0 +1,8 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When I initialize a repository a new .git repository was added in the directory where I initialized the repository.  Initializing a repository is important if I want to create a file history by commiting changes.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area allows the user to commit multiple files in one commit while those "untracked files" can only be commited one at a time.  The benefit of staging areas is it can make the file history look "cleaner" and a lot less cluttered with commits.  Also staging areas can possibly reduce the amount of time needed to make commits.
+
