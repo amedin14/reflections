@@ -9,3 +9,21 @@ Having easy access to the entire history of a file can be helpful in time manang
 What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
 
 I think the some of the pros of manually commiting is that the commits can be used as a "documentation" to all the changes. Since git allows putting comments on the commits, one can comment the purpose of the change if they ever need to recall on the codes they wrote.  Version comparison won't nessarily help the programmers remember the purposes of the changes.  Another pro can be is not having too many versions saved when lots of changes occurred.  I don't think it's nessesary to have more than 2 or 3 versions saved especially if the changes are too minor to show a big change to the program.  I think a con to manually commiting is, suppose one forget to commit a change and gets a bug, if they don't have previous versions then it might take forever to find the bug.  At least Google docs will automatically save versions so one can compare the codes and can easily find the bug.  Another con if more than one programmer is involved with the same program and one commits a change that the other won't like and both wind up agreeing that the change won't work.  Now they would have to recommit that change back to its original form.  At least with having different versions, one programmer can use an older version, instead of the current one as a "prototype version" to apply their own change without affecting the current version.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+I think Git some version control systems allow saving multiple files in one commit because there are certain files such as HTML and CSS or C++ header and source files that are dependant on one another so it is important for the programmer to make sure that all the files on the same page (metaphorically speaking).  While other version control systems only allows separate file commitments because one might often make changes on one file without affecting the others and it's not neccesary, or a good practice, to commit unchanged files.
+
+How can you use the commands git log and git diff to view the history of files?
+
+I use git log command to view all the commits from the files and the time that they were commited.  I use git diff command to view the changes between two versions of the file.
+
+How might using version control make you more confident to make changes that could break something?
+
+By using version control, I can easily find when the bug first occurred.  In other words, I'll know when the program stopped working properly.  By comparing the version with the bug with the previous version, I'll know what kind of changes caused the bug and therefore have a little more confidence in making changes that can cause bugs.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to use Git to commit to all the changes I made in my programs because it would really help me find bugs in my programs.  So it would be really useful when I try to improve a program without having to break it.
+
+

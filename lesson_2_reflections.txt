@@ -6,3 +6,24 @@ How is the staging area different from the working directory and the repository?
 
 The staging area allows the user to commit multiple files in one commit while those "untracked files" can only be commited one at a time.  The benefit of staging areas is it can make the file history look "cleaner" and a lot less cluttered with commits.  Also staging areas can possibly reduce the amount of time needed to make commits.
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+I can use the staging area if I make changes to multiple files but only want to have one commit for the changes by including the files in the stage to be committed and commit to those files.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches would be helpful if the programmer decides to add a feature but fears it might break the program.  Another situation is that the programmer may want to create an alternative version of the program but wants to keep the original version as well.  Having multiple branches is very helpful in situations like those because the programmer can create alternative paths for those situations so they can apply their custom ideas without the fear of destroying the original program. In case those alternative paths fail or did not go as well as the programmer hoped, they can always go back to the original path as the "drawing board" and might create another path for a new idea.
+
+How do the diagrams help you visualize the branch structure?
+
+The diagrams help me visualize the branch structure by showing me which commits are parenting a separate branch and which commits are unreachable.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result of merging two branches together is having a combined program with the added codes from both branches.  We represent the merge in the diagram to show how the branches are merged and how the commits are connected.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+The pros for automatic merging vs. merging manually is that Git will combine the codes from both branches and shows the programmers which codes have conflicted.  The cons are that Git will not automatically adjust the codes, the programmer has to modify the codes themselves.
+
+
