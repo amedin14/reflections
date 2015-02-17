@@ -2,3 +2,22 @@ When would you want to use a remote repository rather than keeping all your work
 
 I would want to use a remote repository if I want to share my ideas to the public and get other ideas from other people about my project.
 
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+I might want to pull changes manually all the time rather than having it done automatically because if there's more than one contibutors sharing the same repository most likely they will add changes that I might not like to have so I wouldn't want Git to automatically pull those changes in my local repository.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Clones are processes where one creates a duplicate copy of a repository from either a remote repository or another local respository from another directory/computer into their working directory.  Forks are very similiar to clones but they only works for creating a duplicate repository from one GitHub file to another but it does not work for pulling it to their local repository.  Branches are links of commits "connects" to one another.  One would only use branches if they want to apply their own versions without breaking the original version.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+The benefit of having a copy of the last known state of the remote stored locally is the ability to add new commits to the cloned branch without affecting the orignal remote branch.  Another benefit is that the branch can be worked offline once it's been pushed to the local repository.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+I would collaborate using either Google Docs or Dropbox since I've experienced with them both before.  Git would be easier in comparing changes but Google Docs would be easier to put comments, sharing and making changes and Dropbox would be easier to make copies to apply their own changes.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+I would use a separate branch if I want to try something new but afraid the change may cause bugs or just not what I was expected. At least I'll be able return to the original branch.  But if I'm teammed with a partner and we're currently making changes to together or fixing errors such as typos or syntax errors then it's best to change them directly to the master.
